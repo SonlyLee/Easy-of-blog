@@ -1,0 +1,13 @@
+
+<!-- layout.html中为公用模板 -->
+{% extends 'layout.html' %}
+
+<!-- 在layout.html中写一个占位符，在这里进行继承和重写 -->
+{% block main%}
+   <div class="fistPage">
+	    <div class="jumbotron">
+			<h1>Hello,{{userInfo.username}}</h1>
+			<p>欢迎进入我的后台管理!</p>
+		</div>
+	</div>
+{% endblock %}

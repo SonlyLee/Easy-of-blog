@@ -1,0 +1,73 @@
+html,body{
+	height: 100%;
+}
+.navbar{
+	margin: 0;
+	border: none;
+}
+.navbar-header{
+	padding: 0 3%;
+}
+.navbar-default .navbar-brand{
+    color:#2FD82B;
+}
+.navbar-default  .navbar-nav .dropdown>a,.navbar-default .navbar-nav>li>a {
+	color:#fff;
+	font-size: 16px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:#2FD82B;
+}
+.container-fluid{
+    background-color: #012231;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	color: #fff;
+	background: #2FD82B;
+}
+.dropdown-menu {
+	min-width: 88px;
+	background: #012231;
+	color:#fff;
+}
+#category{
+	width: 141px;
+	text-align: center;
+}
+#content{
+	width: 108px;
+}
+.dropdown-menu>li>a{
+	color:#fff;
+}
+.dropdown-menu>li>a:hover{
+	background: #2FD82B;
+}
+.dropdown-menu .divider{
+	margin: 0;
+}
+.copyright {
+  height: 79px;
+  background: #012231;
+  line-height: 79px;
+  border-top: 1px solid #303030;
+  color: #fff;
+  text-align: center;
+  margin-top: 3%;
+}
+.container-fulid{
+    height: calc(100% - 50px);
+}
+.fistPage{
+	height: 100%;
+	background: url('../images/bk.jpg') no-repeat fixed;
+	background-size: 100% 100%;
+}
+.jumbotron{
+	height: 100%;
+	text-align: center;
+	padding-top: 16%;
+	margin: 0;
+	color: #eee;
+	background-color: rgba(0,0,0,0.4);
+}
